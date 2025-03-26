@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 //import 'package:montescurso/mis_Widgets/my_Tarjeta.dart';
-import 'package:montescurso/mis_Widgets/dialogo_acerca_de.dart';
+import 'package:montescurso/mis_Widgets/cuadro_de_lista.dart';
+//import 'package:montescurso/mis_Widgets/dialogo_acerca_de.dart';
 
 void main() => runApp(MyCard());
 
@@ -23,7 +24,8 @@ class MyCard extends StatelessWidget {
           centerTitle: true,
         ),
         //body: TheCard(),
-        body: Dialogo(),
+        //body: Dialogo(),
+        body: Lista(),
       ),
     );
   }
